@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+:root {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, a {
+  font-size: 1.6rem;
+  color: #334155;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h2.margin {
+  margin: 1.6rem 0;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+p, li, a {
+  font-size: 1.4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4a5e7a;
+}
+
+span {
+  font-size: 1.2rem;
+}
+
+.page {
+  margin: auto;
+  padding: 5rem 4.8rem;
+  max-width: 70rem;
+}
+
+/* dados pessoais */
+.data {
+  padding-block: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* habilidades */
+.skills {
+  margin-block: 1.6rem;
+}
+
+.skill-card, .language-card {
+  padding: .4rem .8rem;
+  margin-right: .8rem;
+  background: #E6EEF5;
+  border-radius: .4rem;
+}
+
+/* Experiencia e educação */
+.training {
+  display: grid;
+  grid-template-areas: "a a b";
+  gap: 2rem;
+}
+
+.training ul {
+  list-style: inside;
+}
+
+#experience {
+  grid-area: a;
+}
+
+#education {
+  grid-area: b;
+}
+
+#experience .training-card p {
+  display: inline;
+}
+
+.training-card span {
+  opacity: .7;
+}
+
+div.training-card + div.training-card {
+  margin-top: 1.6rem;
+}
+
+/* linguagens */
+.language-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+/* projetos */
+.projects-card {
+  width: 28rem;
+  text-align: justify;
+}
+
+.projects-card h3 {
+  display: inline;
+}
