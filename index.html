@@ -11,55 +11,61 @@
   <div class="page">
     <main>
       <!-- dados pessoais -->
-      <section class="data">
-        <div id="profession">
+      <div class="data">
+        <section id="profession">
           <h1>Leandro Sousa,</h1>
           <h2>Desenvolvedor Front-end</h2>
           <p>Apaixonado por tecnologia</p>
-        </div>
-        <div id="contact">
+        </section>
+        <section id="contact">
           <p>leandro.barreto.lb23@gmail.com</p>
           <p>São José do Rio Preto, Brasil</p>
           <div>
             <div>
               <i class="fa-brands fa-linkedin"></i>
-              <a href="https://www.linkedin.com/in/leosousa23/">/LeoSousa23</a>
+              <a href="https://www.linkedin.com/in/leosousa23/" target="_blank">/LeoSousa23</a>
             </div>
             <div>
               <i class="fa-brands fa-github"></i>
-              <a href="https://github.com/Leosousa23">/LeoSousa23</a>
+              <a href="https://github.com/Leosousa23" target="_blank">/LeoSousa23</a>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <!-- habilidades -->
       <section class="skills">
         <h2 class="margin">Habilidades</h2>
-        <span class="skill-card">HTML</span>
-        <span class="skill-card">CSS</span>
-        <span class="skill-card">JavaScript</span>
-        <span class="skill-card">Git</span>
-        <span class="skill-card">Github</span>
+        <div class="card">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Git</span>
+          <span>Github</span>
+        </div>
       </section>
       <!-- Experiencia e educação -->
-      <section class="training">
+      <div class="training">
         <!-- experiencia -->
-        <div id="experience">
+        <section id="experience">
           <h2 class="margin">Experiências</h2>
-          <div class="training-card">
+          <div class="training-group">
             <h3>Lukma Comercio de eletro eletronicos</h3>
-            <p>Auxiliar de T.I.</p>
-            <span>| Ago/2022 - Atual</span>
+            <div class="training-group__profession">
+              <p>Auxiliar de T.I.</p>
+              <span>| Ago/2022 - Atual</span>
+            </div>
             <ul>
               <li>Help Desk</li>
               <li>Auxiliar de Infraestrutura</li>
               <li>Montagem e manutenção de hardware;</li>
             </ul>
           </div>
-          <div class="training-card">
+          <div class="training-group">
             <h3>Real Rondonia Transportes e Logística</h3>
-            <p>Assistente de T.I.</p>
-            <span>| Jan/2022 - Ago/2023</span>
+            <div class="training-group__profession">
+              <p>Assistente de T.I.</p>
+              <span>| Jan/2022 - Ago/2023</span>
+            </div>
             <ul>
               <li>Gerenciamento de usuários Active Directory;</li>
               <li>Suporte e análise de sistema;</li>
@@ -68,65 +74,67 @@
               <li>Criação de relatórios.</li>
             </ul>
           </div>
-          <div class="training-card">
+          <div class="training-group">
             <h3>Real Rondonia Transportes e Logística</h3>
-            <p>Assistente de Logística</p>
-            <span>| Ago/2020 - Dez/2021</span>
+            <div class="training-group__profession">
+              <p>Assistente de Logística</p>
+              <span>| Ago/2020 - Dez/2021</span>
+            </div>
             <ul>
               <li>Agendamento e rastreio de entrega de mercadoria;</li>
               <li>Atendimento ao cliente;</li>
               <li>Lançamento de notas fiscais e conhecimentos de transporte.</li>
             </ul>
           </div>
-        </div>
-        <!-- educação -->
-        <div id="education">
-          <h2 class="margin">Educação</h2>
-          <div class="training-card">
-            <p>Rocketseat</p>
-            <strong>Explorer</strong>
-            <span>(em progresso)</span>
-            <p>2023</p>
-          </div>
-          <div class="training-card">
-            <p>Estudonauta</p>
-            <strong>Inglês</strong>
-            <span>(em progresso)</span>
-            <p>2023</p>
-          </div>
-          <div class="training-card">
-            <p>Rocketseat</p>
-            <strong>Discover</strong>
-            <span>(12 horas)</span>
-            <p>2023</p>
-          </div>
-          <div class="training-card">
-            <p>Estudonauta</p>
-            <strong>Desenvolvimento web</strong>
-            <span>(160 horas)</span>
-            <p>2023</p>
-          </div>
-          <!-- linguagens -->
-          <div id="languages">
-            <h2 class="margin">Linguagens</h2>
-            <div class="language-box">
-              <span class="language-card">Inglês</span>
-              <p>Básico</p>
+        </section>
+          <!-- educação -->
+          <section id="education">
+            <h2 class="margin">Educação</h2>
+            <div class="training-group">
+              <p>Rocketseat</p>
+              <strong>Explorer</strong>
+              <span>(em progresso)</span>
+              <p>2023</p>
             </div>
-            <div class="language-box">
-              <span class="language-card">Espanhol</span>
-              <p>Básico</p>
+            <div class="training-group">
+              <p>Estudonauta</p>
+              <strong>Inglês</strong>
+              <span>(em progresso)</span>
+              <p>2023</p>
             </div>
-          </div>
-        </div>
-      </section>
+            <div class="training-group">
+              <p>Rocketseat</p>
+              <strong>Discover</strong>
+              <span>(12 horas)</span>
+              <p>2023</p>
+            </div>
+            <div class="training-group">
+              <p>Estudonauta</p>
+              <strong>Desenvolvimento web</strong>
+              <span>(160 horas)</span>
+              <p>2023</p>
+            </div>
+            <!-- linguagens -->
+            <section id="languages">
+              <h2 class="margin">Linguagens</h2>
+              <div class="card">
+                <span>Inglês</span>
+                <p>Básico</p>
+              </div>
+              <div class="card">
+                <span>Espanhol</span>
+                <p>Básico</p>
+              </div>
+            </section>
+          </section>
+      </div>
       <!-- projetos -->
       <section id="projects">
         <h2 class="margin">Projetos</h2>
         <div class="projects-card">
           <h3>Ténicos Orientando Famílias </h3>
           <span>| 2023</span>
-          <p>Blog desenvolvido para Larissa Gomes, com o objetivo de informar sua escola sobre a profissão de um auxiliar de enfermagem. Técnologias utilizadas: HTML, CSS e JavaScript.</p>
+          <p>Este blog foi feito para Larissa Gomes e sua escola, com o objetivo de compartilhar informações sobre a profissão de auxiliar de enfermagem. Tecnologias utilizadas: HTML, CSS e JavaScript.</p>
         </div>
       </section>
     </main>
