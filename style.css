@@ -113,22 +113,6 @@ section {
   text-align: justify;
 }
 
-/* button download */
-footer {
-  margin-top: 6rem;
-}
-footer a {
-  padding: 1rem 1.6rem;
-  border-radius: .4rem;
-  color: var(--bg-card);
-  background-color: var(--main-color);
-  transition: background .3s;
-}
-footer a:hover {
-  background: var(--hover-color);
-  text-decoration: none;
-}
-
 /* Large Screen */
 @media (min-width: 700px) {
   #contact {
